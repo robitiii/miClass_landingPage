@@ -12,7 +12,7 @@ const serviceFeatures: ServiceFeature[] = [
   {
     title: "Create Interactive Assessments",
     description: "Upload your content, build from scratch, or auto-generate from your textbook—Mi Class turns it all into auto-marked, interactive assessments in no time",
-    imageSrc: "/service-feature1.svg",
+    imageSrc: "/tools-interactive.png",
     imageAlt: "Create Your Own Learning Materials"
   },
   {
@@ -25,8 +25,8 @@ const serviceFeatures: ServiceFeature[] = [
   {
     title: "Track Progress & Teach Smarter",
     description: "Get real-time insights into student understanding so you can adapt your teaching and close learning gaps faster. Spot class patterns, identify students who need support, and flag concepts that need reinforcement—all in one simple view.",
-    imageSrc: "/service-feature3.svg",
-    imageAlt: "More Than 50 Digital Learning Methods"
+    imageSrc: "/Real-Time insights.png",
+    imageAlt: "Real-Time insights"
   }
 ];
 

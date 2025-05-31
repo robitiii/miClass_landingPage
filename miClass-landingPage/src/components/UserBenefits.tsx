@@ -28,4 +28,4 @@ const UserBenefits = () => {
   );
 };
 
-export default UserBenefits; 
+export default UserBenefits;

@@ -22,8 +22,8 @@ const Navbar: React.FC = () => {
       </button>
       <div className="container navbar-row">
         <div className="navbar-logo">
-          <img src="/logo-placeholder.svg" alt="Mi Class Logo" className="logo" />
-          <span className="brand-name">Mi Class</span>
+          <img src="/MiClass-logo.png" alt="Mi Class Logo" className="logo" />
+          <span className="brand-name">MiClass</span>
         </div>
         <ul className="navbar-links">
           <li><a href="#" onClick={closeMenu}>About Mi Class</a></li>

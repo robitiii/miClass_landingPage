@@ -19,6 +19,8 @@
 }
 
 body {
+  max-width: 100vw;
+  max-height:100vh;
   font-family: 'Inter', 'Poppins', 'Roboto', Arial, sans-serif;
   line-height: 1.6;
   color: var(--text-color);
@@ -113,11 +115,14 @@ body {
   margin-bottom: 3rem;
   color: var(--secondary-color);
 }
-
+.logo{
+  width:32px;
+  height:32px;
+}
 /* Responsive design */
 @media (max-width: 768px) {
   .container {
-    padding: 0 15px;
+    padding: 2rem 2rem;
   }
 
   .section-title {
@@ -230,10 +235,14 @@ body {
   position: relative;
   z-index: 1;
 }
-
+img{
+  max-width:100%;
+  height:auto;
+  display:block;
+}
 .laptop-placeholder {
-  width: 100%;
-  max-width: 370px;
+  min-width: 370px;
+  object-fit:contain;
   height: auto;
   aspect-ratio: 16/10;
   background: #e5e7eb;
@@ -373,7 +382,7 @@ body {
 .brand-name {
   font-size: 1.15rem;
   font-weight: 600;
-  color: #23406e;
+  color: #5271ff;
   letter-spacing: 0.01em;
 }
 

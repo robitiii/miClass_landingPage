@@ -23,7 +23,7 @@ const HomeLanding = () => {
         <div className={`hero-right slide-in-left${animate ? ' animate delay' : ''}`}>
           {/* Laptop image placeholder */}
           <div className="laptop-placeholder">
-            <img src="./public/Hero-laptop.jpg" alt="Student using laptop" />
+            <img className="kid-laptop"src="./public/Hero-laptop.jpg" alt="Student using laptop" />
           </div>
         </div>
       </div>
